@@ -3,7 +3,7 @@ html{
 	margin: 0;
 }
 h1{
-	color: red;
+	color: blue;
 }
 
 
@@ -12,7 +12,7 @@ body{
 	height: 100%;
 	margin: 0;
 	background-color: #ffffff;
-	background-image: url("images/tit.jpeg") ;
+	background-image: url("tit.jpg") ;
 	background-size: cover;
 }
 .form-input{
