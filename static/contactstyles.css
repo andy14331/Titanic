@@ -1,0 +1,75 @@
+html{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: #fff;
+}
+h1{  background-color: transparent;
+	
+	font-family: sans-serif;
+	margin-inline: 0px;
+	
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;
+}	
+.wrapper{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('../static/3.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.testimonial{
+	padding: 30px 10px;
+}
+article h1{
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+article h1:after{
+	content: "";
+	height: 5px;
+	width: 225px;
+	background-color: #fff;
+	display: block;
+	margin: auto;
+}
+article img{
+	height: 200px;
+	width: 200px;
+	border: 2px solid #fff;
+	border-radius: 70%;
+	margin-top: 0px;
+}
+article blockquote{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.navbar{
+	border-radius: 20px;
+	background-color: #E9E9E9;
+}
+.navbar li{
+	fill: font-stretch;
+	list-style: none;
+	margin: 10px 180px;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+a:hover{
+	color: red;
