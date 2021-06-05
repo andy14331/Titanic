@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Kaggle: Titanic machine learning project</title>
+		 <link rel="stylesheet" type="text/css" href="./static/main.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header>
+			<nav class="navbar">
+				<ul>
+					<li><a href="/contactme">Contact me</a> </li>
+					<li><a href="https://github.com/andy14331"> My Github</a> </li>
+					<li><a href="https://www.linkedin.com/in/ankit-singh-rawat-b66008181/"> My LinkedIn</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+		<h1 align="center"> Would you be able to survive the Titanic? </h1>
+		<p align="center"> Probability of survival would be calculated on the inputs </p>
+		<form id = "input" align="center" method = "POST" action = "/predict">
+			
+			<input  type = "text" name = "Age" placeholder="Enter your age"/> <br>
+			<input  type = "text" name = "SibSp" placeholder=" Number of siblings onboard"/> <br>
+			<input  type = "text" name = "Parch" placeholder="Parents and children onboard"/> <br>
+			<input  type = "text" name = "Fare" placeholder="Enter Ticket Fare"/> <br>
+			
+			<!-- Gender Dropdown -->
+			<select class="form-input align-center" name="Gender">
+				<option value="none">--- Select your gender ---</option>
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select><br>
+			
+			<!-- Embarked Dropdown -->
+			<select class="form-input align-center" name="Embarked">
+				<option value="none">--- Select the place of embarkment ---</option>
+				<option value="Queenstown">Queenstown</option>
+				<option value="Southampton">Southampton</option>
+				<option value="Cherbourg">Cherbourg</option>
+			</select><br>
+			
+			<!-- Passenger Class Dropdown -->
+			<select class="form-input align-center" name="Passenger Class">
+				<option value="none">--- Select Passenger's class ---</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select><br>
+
+			<button type="submit" class="myButton">Predict</button> 
+		</form>
+
+    	<!-- Footer -->
+       	<div class='footer'>
+           	<p class='footer-description' align="center">Made with ❤️ by Ankit Singh Rawat.</p>
+       	</div>
+	</body>
+</html>
